@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="home">
+		<nav>
+			<h2 class="logo">Funda<span>mentals</span></h2>
+			<ul>
+				<li><button class="btn"><a href="About.html">About Me</a></button></li>
+                <li><button class="btn"><a href="contact.html">Contact</a></button></li>
+                <li><button class="btn"><a href="register.html">Register</a></button></li>
+                <li><button class="btn"><a href="login.html">Login</a></button></li>
+			</ul>
+		</nav>
+
+        <section class="register">
+            <form action="login.html">
+                <div class="container">
+                <h1 style="color: #fcfc;">Register</h1>
+                <p style="color:rgba(201, 192, 201, 0.8);">Create an account.</p>
+                <hr>
+                
+                <label for="fname"><b>First Name</b></label>
+                <input type="text" placeholder="Enter First Name" name="fname" id="fname" required>
+                
+                <label for="lname"><b>Last Name</b></label>
+                <input type="text"placeholder="Enter Last Name" name="lname" id="lname" required>
+
+                <label for="phone"><b>Phone</b></label>
+                <input type="number" placeholder="Enter Phone Number" name="phone" id="phone" required>
+                <label for="Gender"><b>Gender</b></label>
+                <select name="Gender" id="Gender" required>
+
+                    <option value="Gender">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+
+                </select>
+
+                <label for="country"><b>Country</b></label>
+                <input type="text" placeholder="Enter Country" name="country" id="country" required>
+
+                <label for="state"><b>State</b></label>
+                <input type="text" placeholder="Enter State" name="state" id="state" required>
+
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+                <hr>
+            
+                <button type="submit" class="registerbtn">Register</button>
+                </div>
+            
+                <div class="container-signin">
+                <p style="color:rgba(201, 192, 201, 0.8);">Already have an account? <button class="btn"><a href="login.html">Sign in</a></button>.</p>
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

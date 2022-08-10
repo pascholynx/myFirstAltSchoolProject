@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact page</title>
+</head>
+<body>
+  <div class="home">
+		<nav>
+			<h2 class="logo">Funda<span>mentals</span></h2>
+			<ul>
+				<li><button class="btn"><a href="About.html">About Me</a></button></li>
+                <li><button class="btn"><a href="contact.html">Contact</a></button></li>
+                <li><button class="btn"><a href="register.html">Register</a></button></li>
+                <li><button class="btn"><a href="login.html">Login</a></button></li>
+			</ul>
+		</nav>
+
+      <form action="register.html">
+        <div class="container">
+          <h1 style="color: #fcfc;">Contact</h1>
+          <p style="color:rgba(201, 192, 201, 0.8);">Fill the form.</p>
+          <hr>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name.." required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email.." required>
+
+          <label for="message">Message</label>
+          <input id="message" name="message" placeholder="Write something.." required></textarea>
+
+          <label for="priority">Priority</label>
+          <select name="priority" id="priority" required>
+
+            <option value="Gender">Select Priority</option>
+            <option value="Male">Work</option>
+            <option value="Female">Family</option>
+            <option value="Others">Health</option>
+            <option value="Male">Relationships</option>
+            <option value="Female">Hobbies</option>
+            <option value="Others">Recreation</option>
+
+
+        </select>
+
+          <button class="btn">Submit</a></button>
+        </div>
+      </form>
+  </div>
+</body>
+</html>
