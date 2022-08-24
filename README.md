@@ -1,3 +1,3 @@
 # myFirstAltSchoolProject
 This is an assignment. My First Project.
-I did this project with so help from google.
+I did this project with some help from google.
